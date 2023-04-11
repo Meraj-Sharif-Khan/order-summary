@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- Open Graph -->
+    <meta
+      property="og:title"
+      content="Frontend Mentor - Order summary card solution
+    "
+    />
+    <meta
+      property="og:description"
+      content="Frontend Mentor - Order summary card solution
+      "
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./images/screenshot.png" />
+    <meta
+      property="og:url"
+      content="https://meraj-sharif-khan.github.io/Order-Summary/"
+    />
+
+    <title>Frontend Mentor | Order summary card</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <article class="order--card">
+        <img class="order__image" src="./images/illustration-hero.svg" alt="" />
+        <section class="order--content">
+          <div class="order__summary">
+            <h1 class="order__title">Order Summary</h1>
+            <p class="order__description">
+              You can now listen to millions of songs, audiobooks, and podcasts
+              on any device anywhere you like!
+            </p>
+          </div>
+          <div class="order--plan">
+            <div class="plan__catagory">
+              <i class="plan__icon"
+                ><img src="./images/icon-music.svg" alt=""
+              /></i>
+              <div class="pricing">
+                <h2>Annual Plan</h2>
+                <p>$59.99/year</p>
+              </div>
+            </div>
+            <a href="#">Change</a>
+          </div>
+          <button class="btn btn--primary">Proceed to Payment</button>
+          <button class="btn btn--only-font">Cancel Order</button>
+        </section>
+      </article>
+      <div class="attribution">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io/profile/Meraj-Sharif-Khan"
+          target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          href="https://github.com/Meraj-Sharif-Khan/Order-Summary"
+          target="_blank"
+          >Meraj Sharif</a
+        >.
+      </div>
+    </main>
+  </body>
+</html>

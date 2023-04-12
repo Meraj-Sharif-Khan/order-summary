@@ -28,6 +28,9 @@ html {
 body {
   font-family: var(--ff-base);
   background-color: var(--clr-neutral-400);
+  background-repeat: no-repeat;
+  background-image: url(../images/pattern-background-desktop.svg);
+
   /* to Center Order Card Only  */
   min-height: 100vh;
   display: grid;

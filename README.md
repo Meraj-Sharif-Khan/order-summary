@@ -13,8 +13,8 @@
 
 ### Links
 
-- Solution URL: [solution URL]()
-- Live Site URL: [live site URL]()
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/order-summary-card-solution-html-css-xIWpCMQwAr)
+- Live Site URL: [live site URL](https://meraj-sharif-khan.github.io/order-summary/)
 
 ### Built with
 
